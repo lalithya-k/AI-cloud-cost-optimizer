@@ -1,0 +1,19 @@
+{
+  "name": "Cloud-based Online Learning Platform",
+  "budget_inr_per_month": 90000.0,
+  "description": "We are building a cloud-based online learning platform for universities and professional training providers with an expected load of around 30,000 monthly active users.",
+  "tech_stack": {
+    "frontend": "React",
+    "backend": "Python Flask",
+    "database": "PostgreSQL",
+    "storage": "object storage",
+    "cdn": "CDN",
+    "monitoring": "centralized monitoring and logging"
+  },
+  "non_functional_requirements": [
+    "scalability",
+    "high availability",
+    "data security",
+    "cost efficiency"
+  ]
+}

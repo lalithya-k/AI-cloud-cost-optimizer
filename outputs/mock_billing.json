@@ -1,0 +1,222 @@
+[
+  {
+    "month": "2022-01",
+    "service": "Compute",
+    "resource_id": "i-123456",
+    "region": "ap-south-1",
+    "usage_type": "instance-hour",
+    "usage_quantity": 720,
+    "unit": "hours",
+    "cost_inr": 15000.0,
+    "desc": "EC2 instance running for 720 hours"
+  },
+  {
+    "month": "2022-01",
+    "service": "Database",
+    "resource_id": "db-123456",
+    "region": "ap-south-1",
+    "usage_type": "storage-gb",
+    "usage_quantity": 100,
+    "unit": "GB",
+    "cost_inr": 5000.0,
+    "desc": "PostgreSQL database storage"
+  },
+  {
+    "month": "2022-01",
+    "service": "Storage",
+    "resource_id": "s3-123456",
+    "region": "ap-south-1",
+    "usage_type": "storage-gb",
+    "usage_quantity": 500,
+    "unit": "GB",
+    "cost_inr": 20000.0,
+    "desc": "Object storage"
+  },
+  {
+    "month": "2022-01",
+    "service": "Networking",
+    "resource_id": "nat-gw-123456",
+    "region": "ap-south-1",
+    "usage_type": "nat-gateway-hour",
+    "usage_quantity": 720,
+    "unit": "hours",
+    "cost_inr": 1000.0,
+    "desc": "NAT gateway usage"
+  },
+  {
+    "month": "2022-01",
+    "service": "Monitoring",
+    "resource_id": "monitor-123456",
+    "region": "global",
+    "usage_type": "instance-hour",
+    "usage_quantity": 24,
+    "unit": "hours",
+    "cost_inr": 500.0,
+    "desc": "Monitoring instance"
+  },
+  {
+    "month": "2022-01",
+    "service": "Logging",
+    "resource_id": "log-123456",
+    "region": "global",
+    "usage_type": "storage-gb",
+    "usage_quantity": 10,
+    "unit": "GB",
+    "cost_inr": 100.0,
+    "desc": "Logging storage"
+  },
+  {
+    "month": "2022-01",
+    "service": "CDN",
+    "resource_id": "cdn-123456",
+    "region": "global",
+    "usage_type": "data-transfer-out-gb",
+    "usage_quantity": 1000,
+    "unit": "GB",
+    "cost_inr": 500.0,
+    "desc": "CDN data transfer"
+  },
+  {
+    "month": "2022-02",
+    "service": "Compute",
+    "resource_id": "i-123458",
+    "region": "ap-south-1",
+    "usage_type": "instance-hour",
+    "usage_quantity": 720,
+    "unit": "hours",
+    "cost_inr": 15000.0,
+    "desc": "EC2 instance running for 720 hours"
+  },
+  {
+    "month": "2022-02",
+    "service": "Database",
+    "resource_id": "db-123458",
+    "region": "ap-south-1",
+    "usage_type": "storage-gb",
+    "usage_quantity": 150,
+    "unit": "GB",
+    "cost_inr": 7500.0,
+    "desc": "PostgreSQL database storage"
+  },
+  {
+    "month": "2022-02",
+    "service": "Storage",
+    "resource_id": "s3-123458",
+    "region": "ap-south-1",
+    "usage_type": "storage-gb",
+    "usage_quantity": 750,
+    "unit": "GB",
+    "cost_inr": 30000.0,
+    "desc": "Object storage"
+  },
+  {
+    "month": "2022-02",
+    "service": "Networking",
+    "resource_id": "nat-gw-123458",
+    "region": "ap-south-1",
+    "usage_type": "nat-gateway-hour",
+    "usage_quantity": 720,
+    "unit": "hours",
+    "cost_inr": 1000.0,
+    "desc": "NAT gateway usage"
+  },
+  {
+    "month": "2022-02",
+    "service": "Monitoring",
+    "resource_id": "monitor-123458",
+    "region": "global",
+    "usage_type": "instance-hour",
+    "usage_quantity": 24,
+    "unit": "hours",
+    "cost_inr": 500.0,
+    "desc": "Monitoring instance"
+  },
+  {
+    "month": "2022-02",
+    "service": "Logging",
+    "resource_id": "log-123458",
+    "region": "global",
+    "usage_type": "storage-gb",
+    "usage_quantity": 15,
+    "unit": "GB",
+    "cost_inr": 150.0,
+    "desc": "Logging storage"
+  },
+  {
+    "month": "2022-02",
+    "service": "CDN",
+    "resource_id": "cdn-123458",
+    "region": "global",
+    "usage_type": "data-transfer-out-gb",
+    "usage_quantity": 1500,
+    "unit": "GB",
+    "cost_inr": 750.0,
+    "desc": "CDN data transfer"
+  },
+  {
+    "month": "2022-03",
+    "service": "Compute",
+    "resource_id": "i-123460",
+    "region": "ap-south-1",
+    "usage_type": "instance-hour",
+    "usage_quantity": 720,
+    "unit": "hours",
+    "cost_inr": 15000.0,
+    "desc": "EC2 instance running for 720 hours"
+  },
+  {
+    "month": "2022-03",
+    "service": "Database",
+    "resource_id": "db-123460",
+    "region": "ap-south-1",
+    "usage_type": "storage-gb",
+    "usage_quantity": 200,
+    "unit": "GB",
+    "cost_inr": 10000.0,
+    "desc": "PostgreSQL database storage"
+  },
+  {
+    "month": "2022-03",
+    "service": "Storage",
+    "resource_id": "s3-123460",
+    "region": "ap-south-1",
+    "usage_type": "storage-gb",
+    "usage_quantity": 1000,
+    "unit": "GB",
+    "cost_inr": 40000.0,
+    "desc": "Object storage"
+  },
+  {
+    "month": "2022-03",
+    "service": "Networking",
+    "resource_id": "nat-gw-123460",
+    "region": "ap-south-1",
+    "usage_type": "nat-gateway-hour",
+    "usage_quantity": 720,
+    "unit": "hours",
+    "cost_inr": 1000.0,
+    "desc": "NAT gateway usage"
+  },
+  {
+    "month": "2022-03",
+    "service": "Monitoring",
+    "resource_id": "monitor-123460",
+    "region": "global",
+    "usage_type": "instance-hour",
+    "usage_quantity": 24,
+    "unit": "hours",
+    "cost_inr": 500.0,
+    "desc": "Monitoring instance"
+  },
+  {
+    "month": "2022-03",
+    "service": "Logging",
+    "resource_id": "log-123460",
+    "region": "global",
+    "usage_type": "storage-gb",
+    "usage_quantity": 20,
+    "unit": "GB",
+    "cost_inr": 200.0,
+    "desc": "Logging storage"
+  }
+]
