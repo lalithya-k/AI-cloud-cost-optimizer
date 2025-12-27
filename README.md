@@ -18,9 +18,9 @@ understand potential cloud infrastructure costs.
 ---
 
 ## Tech Stack
-- Python 3.9+
+- Python 3.13
 - Standard Python libraries
-- HuggingFace LLM API (used for mock data generation)
+- HuggingFace LLM API 
 
 ---
 
@@ -28,7 +28,7 @@ understand potential cloud infrastructure costs.
 
 ### 1. Clone the repository
 ```bash
-git clone <your-github-repository-url>
+git clone https://github.com/lalithya-k/AI-cloud-cost-optimizer
 cd cost-optimization
 ````
 
@@ -58,10 +58,11 @@ python cli.py
 When the application starts, the following menu options are displayed:
 
 1. Enter new project description
-2. Run complete cost analysis
+2. Run complete cost analysis (with Retry)
 3. View recommendations
-4. Export report
-5. Exit
+4. Export report (JSON)
+5. Export report (HTML)
+6. Exit
 
 Follow the prompts to generate and analyze cloud cost data based on the provided project
 description.
@@ -77,6 +78,7 @@ demonstrate expected usage:
 * `project_profile.json` – Generated cloud project profile
 * `mock_billing.json` – Example mock cloud billing data
 * `cost_optimization_report.json` – Final cost analysis and optimization report
+* `cost_optimization_report.html` - Final report in HTML
 
 These files serve as reference examples for running the CLI.
 
@@ -85,15 +87,9 @@ These files serve as reference examples for running the CLI.
 ## Tools Used
 
 * ChatGPT (OpenAI) – Used for design guidance, debugging assistance, and clarification
-  during development. All submitted code was written, reviewed, and fully understood
-  by the author.
+  during development. 
 
 ---
 
-## Academic Integrity
-
-This project adheres to the AI Usage & Academic Integrity guidelines. AI tools were used
-only as an assistant, and the final implementation reflects the author's independent
-understanding and validation of the code.
 
 ````
