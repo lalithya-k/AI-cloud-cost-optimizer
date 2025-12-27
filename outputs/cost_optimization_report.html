@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Cloud Cost Optimization Report</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 32px; }
+    h1 { margin-bottom: 10px; }
+    pre { background: #f6f8fa; padding: 12px; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <h1>Cloud Cost Optimization Report</h1>
+  <pre>{
+  "project_name": "Cloud-based online learning platform",
+  "analysis": {
+    "month_analyzed": "2022-03",
+    "total_monthly_cost": 34750.0,
+    "budget": 90000.0,
+    "budget_variance": -55250.0,
+    "is_over_budget": false,
+    "monthly_costs": {
+      "2022-01": 44300.0,
+      "2022-02": 42425.0,
+      "2022-03": 34750.0
+    },
+    "service_costs": {
+      "Compute": 18000.0,
+      "Database": 11250.0,
+      "Storage": 3750.0,
+      "Monitoring": 600.0,
+      "Logging": 150.0,
+      "Networking": 1000.0
+    },
+    "high_cost_services": {
+      "Compute": 18000.0,
+      "Database": 11250.0,
+      "Storage": 3750.0,
+      "Networking": 1000.0,
+      "Monitoring": 600.0,
+      "Logging": 150.0
+    },
+    "service_costs_all_months": {
+      "Compute": 54000.0,
+      "Database": 33750.0,
+      "Storage": 26250.0,
+      "Monitoring": 1800.0,
+      "Logging": 450.0,
+      "Networking": 2625.0,
+      "CDN": 2000.0,
+      "Analytics": 600.0
+    }
+  },
+  "recommendations": [
+    {
+      "title": "Optimize Compute Costs",
+      "service": "Compute",
+      "current_cost": 18000.0,
+      "potential_savings": 6000.0,
+      "recommendation_type": "cost optimization",
+      "description": "Downsize instance types or use spot instances to reduce costs.",
+      "implementation_effort": "medium",
+      "risk_level": "medium",
+      "steps": [
+        "Analyze instance usage and size",
+        "Downsize instance types or use spot instances",
+        "Monitor and adjust as needed"
+      ],
+      "cloud_providers": [
+        "AWS",
+        "Azure",
+        "GCP"
+      ]
+    },
+    {
+      "title": "Use Open-Source Monitoring",
+      "service": "Monitoring",
+      "current_cost": 600.0,
+      "potential_savings": 300.0,
+      "recommendation_type": "cost optimization",
+      "description": "Replace commercial monitoring tools with open-source alternatives like Prometheus+Grafana.",
+      "implementation_effort": "low",
+      "risk_level": "low",
+      "steps": [
+        "Install Prometheus and Grafana",
+        "Configure and deploy",
+        "Monitor and adjust as needed"
+      ],
+      "cloud_providers": [
+        "AWS",
+        "Azure",
+        "GCP"
+      ]
+    },
+    {
+      "title": "Implement Kubernetes Autoscaling",
+      "service": "Compute",
+      "current_cost": 18000.0,
+      "potential_savings": 4500.0,
+      "recommendation_type": "cost optimization",
+      "description": "Use Kubernetes autoscaling to dynamically adjust instance sizes based on demand.",
+      "implementation_effort": "medium",
+      "risk_level": "medium",
+      "steps": [
+        "Configure Kubernetes autoscaling",
+        "Monitor and adjust as needed",
+        "Integrate with existing monitoring tools"
+      ],
+      "cloud_providers": [
+        "AWS",
+        "Azure",
+        "GCP"
+      ]
+    },
+    {
+      "title": "Use Free Analytics",
+      "service": "Analytics",
+      "current_cost": 600.0,
+      "potential_savings": 600.0,
+      "recommendation_type": "cost optimization",
+      "description": "Replace commercial analytics tools with free alternatives like Google Analytics.",
+      "implementation_effort": "low",
+      "risk_level": "low",
+      "steps": [
+        "Configure Google Analytics",
+        "Integrate with existing tools",
+        "Monitor and adjust as needed"
+      ],
+      "cloud_providers": [
+        "AWS",
+        "Azure",
+        "GCP"
+      ]
+    },
+    {
+      "title": "Optimize Database Costs",
+      "service": "Database",
+      "current_cost": 11250.0,
+      "potential_savings": 2250.0,
+      "recommendation_type": "cost optimization",
+      "description": "Downsize database instance sizes or use serverless databases to reduce costs.",
+      "implementation_effort": "medium",
+      "risk_level": "medium",
+      "steps": [
+        "Analyze database usage and size",
+        "Downsize instance sizes or use serverless databases",
+        "Monitor and adjust as needed"
+      ],
+      "cloud_providers": [
+        "AWS",
+        "Azure",
+        "GCP"
+      ]
+    },
+    {
+      "title": "Use Open-Source Logging",
+      "service": "Logging",
+      "current_cost": 150.0,
+      "potential_savings": 75.0,
+      "recommendation_type": "cost optimization",
+      "description": "Replace commercial logging tools with open-source alternatives like ELK/OpenSearch.",
+      "implementation_effort": "low",
+      "risk_level": "low",
+      "steps": [
+        "Install ELK/OpenSearch",
+        "Configure and deploy",
+        "Monitor and adjust as needed"
+      ],
+      "cloud_providers": [
+        "AWS",
+        "Azure",
+        "GCP"
+      ]
+    },
+    {
+      "title": "Use CDNs for Static Assets",
+      "service": "CDN",
+      "current_cost": 2000.0,
+      "potential_savings": 1000.0,
+      "recommendation_type": "cost optimization",
+      "description": "Use CDNs to reduce the load on origin servers and reduce costs.",
+      "implementation_effort": "medium",
+      "risk_level": "medium",
+      "steps": [
+        "Configure CDN",
+        "Integrate with existing tools",
+        "Monitor and adjust as needed"
+      ],
+      "cloud_providers": [
+        "AWS",
+        "Azure",
+        "GCP"
+      ]
+    }
+  ],
+  "summary": {
+    "total_potential_savings": 14725.0,
+    "savings_percentage": 42.37,
+    "recommendations_count": 7
+  }
+}</pre>
+</body>
+</html>

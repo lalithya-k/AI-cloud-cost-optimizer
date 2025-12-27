@@ -19,3 +19,4 @@ outputs/*
 !outputs/project_profile.json
 !outputs/mock_billing.json
 !outputs/cost_optimization_report.json
+!outputs/cost_optimization_report.html
